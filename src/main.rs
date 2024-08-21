@@ -11,7 +11,7 @@ fn pixel_to_ascii(pixel_intensity: u8) -> char {
 }
 
 fn main() -> opencv::Result<()> {
-    let video_path = "woman.jpg";
+    let video_path = "woman.mp4";
     let mut cap = videoio::VideoCapture::from_file(video_path, videoio::CAP_ANY)?;
 
     let fps = cap.get(videoio::CAP_PROP_FPS)?;

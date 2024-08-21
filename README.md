@@ -9,7 +9,7 @@ program to render any image or video to ascii in the terminal, using [opencv](ht
 git clone https://github.com/misterclayt0n/video-to-ascii
 ```
 
-3. change the `video_path` variable:
+3. change the `video_path` variable the the `main.rs` file:
 
 ```zsh
 let video_path = "woman.mp4"; // example
